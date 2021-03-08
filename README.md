@@ -147,6 +147,7 @@ frontend
 │   README.md                 
 │   tsconfig.json                     
 │   package.json                     
+│   .prettierrc                     
 │   ...                 
 └───src                 
 │   │   index.js                
@@ -223,3 +224,14 @@ In order to avoid this we can add a CSS Modules Stylesheet for each **Components
 We should use a modern css package like styled-components:
 ----------
 [styled-components](https://styled-components.com/docs)
+
+## Hook vs Classes
+
+Many components where Class based but since version 16.8 we can read in the react documentation that using Hook is more suited:
+
+[Hook](https://reactjs.org/docs/hooks-faq.html#gatsby-focus-wrapper)
+
+
+## Linting
+
+Prettier
