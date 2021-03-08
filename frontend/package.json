@@ -1,0 +1,77 @@
+{
+    "name": "users",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@material-ui/core": "^4.11.3",
+        "@material-ui/icons": "3.0.1",
+        "@types/classnames": "2.2.9",
+        "@types/node": "12.0.4",
+        "@types/react": "16.8.19",
+        "@types/react-copy-to-clipboard": "4.2.6",
+        "@types/react-data-grid": "4.0.4",
+        "@types/react-dom": "16.8.4",
+        "@types/react-dropzone": "5.1.0",
+        "@types/react-router-dom": "4.3.4",
+        "@types/react-swipeable-views": "0.13.0",
+        "bootstrap": "3.4.1",
+        "immutability-helper": "2.6.6",
+        "lodash": "^4.17.21",
+        "moment": "2.22.0",
+        "moment-timezone": "0.5.32",
+        "prismjs": "1.23.0",
+        "promise-retry": "1.1.1",
+        "prop-types": "^15.7.2",
+        "react": "16.12.0",
+        "react-copy-to-clipboard": "5.0.2",
+        "react-data-grid": "^6.0.1",
+        "react-data-grid-addons": "6.1.0",
+        "react-date-range": "1.0.0-beta",
+        "react-dom": "16.12.0",
+        "react-dropzone": "10.1.10",
+        "react-favicon": "0.0.11",
+        "react-html-parser": "2.0.2",
+        "react-image-crop": "6.0.0",
+        "react-instantsearch": "5.2.3",
+        "react-router-dom": "4.3.1",
+        "react-scripts": "3.4.0",
+        "react-simple-code-editor": "0.11.0",
+        "react-sortable-hoc": "1.6.0",
+        "react-swipeable-views": "^0.13.9",
+        "reselect": "4.0.0",
+        "typeface-roboto": "0.0.45",
+        "typescript": "3.7.4",
+        "web-vitals": "^1.1.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "checkTs": "tsc --noEmit",
+        "eslint": "eslint --ext js,ts,tsx",
+        "lint": "npm run eslint src",
+        "lint:fix": "npm run eslint --fix src"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.168",
+        "@types/query-string": "^6.3.0"
+    }
+}
